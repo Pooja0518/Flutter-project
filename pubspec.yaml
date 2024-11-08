@@ -1,0 +1,37 @@
+name: myflutterproject
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  google_maps_flutter: ^2.1.1
+  video_player: ^2.5.0
+  audioplayers: ^6.1.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  shared_preferences: ^2.0.15
+
+flutter:
+  assets:
+#    - assets/nuv_logo.png
+#    - assets/data science.txt
+#    - assets/video.mp4
+#    - assets/audio.mp3
+#    - assets/marks.json
+#    - assets/nuv.txt
+#    - assets/ambani.txt
+    - assets/Audio.mp3
+
+  uses-material-design: true
